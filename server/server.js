@@ -67,15 +67,3 @@ webSockets(io); // ./websockets/websockets.js
 const port = process.env.PORT || 3000;
 
 http.listen(port, () => console.log(`Server started on port ${port}`));
-
-// ---------- Dyno Wake ----------
-
-setInterval(() => axios.get("http://tactical-warfare.herokuapp.com"), 300000);
-
-setInterval(() => axios.get("http://vuu.herokuapp.com/"), 300000);
-
-setInterval(() => axios.get("http://knightvviking.herokuapp.com/"), 300000);
-
-setInterval(() => axios.get("http://thawing-beach-78183.herokuapp.com/"), 300000);
-
-setInterval(() => axios.get("http://score-keep-khai-bui.herokuapp.com/"), 300000);
