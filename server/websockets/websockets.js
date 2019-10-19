@@ -4,7 +4,7 @@ const User = require("../models/user");
 
 module.exports = io => {
   const activeSockets = {}; // used to store all active sockets
-
+  
   io.on("connection", socket => {
     io.to(socket.id).emit("activeSockets", activeSockets);
 

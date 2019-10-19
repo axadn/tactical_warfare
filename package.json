@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babylonjs/core": "^4.0.3",
     "axios": "^0.16.2",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -27,11 +28,13 @@
     "jsonwebtoken": "*",
     "mongoose": "^4.12.1",
     "node-sass": "^4.5.3",
+    "oimo": "^1.0.9",
     "passport": "^0.3.2",
     "passport-jwt": "^2.2.1",
     "socket.io": "^2.0.3",
     "socket.io-cookie": "0.0.1",
     "source-map": "^0.6.1",
+    "ts-node-dev": "^1.0.0-pre.43",
     "webpack": "^3.6.0"
   },
   "devDependencies": {
